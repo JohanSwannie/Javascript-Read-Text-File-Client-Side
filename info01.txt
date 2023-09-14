@@ -1,0 +1,8 @@
+Project implementation is the process of putting a project plan into action,
+to produce the deliverables otherwise known as the products or services 
+for clients or stakeholders. It takes place after the planning phase, 
+during which a team determines the key objectives for the project, as well 
+as the timeline and budget. Implementation involves coordinating resources 
+and measuring performance to ensure the project remains within its expected 
+scope and budget. It also involves handling any unforeseen issues in a way 
+that keeps a project running smoothly.
