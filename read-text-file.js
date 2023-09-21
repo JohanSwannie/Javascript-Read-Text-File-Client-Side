@@ -11,14 +11,21 @@ fetchTextFiles(TEXTFILES)
 async function fetchTextFiles(files) {
   for (let file of files) {
     const response = await fetch(file);
+    
     const TxtFile = await response.text();
     const heading = document.createElement("h2");
     heading.innerHTML = file;
     diffy.appendChild(heading);
     const pretag = document.createElement("pre");
     // pretag.innerHTML = TxtFile;
+    // OR
+    // pretag.innerText = TxtFile;
+    // OR
+    // pretag.textContent = TxtFile;
+    // OR
     let text = document.createTextNode(TxtFile);
     pretag.appendChild(text);
     diffy.append(pretag);
   }
 }
+
